@@ -1,0 +1,29 @@
+<body>
+  <div class="row">
+    <div class="col">
+      <h2>Histórico de doguinhos</h2>
+    </div>
+    <div class="col">
+      <button
+        class="btn btn-outline-secondary btn-lg btn_historico"
+        routerLink="">
+        Voltar
+      </button>
+    </div>
+  </div>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Tipo</th>
+        <th scope="col">URL</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let like of likes">
+      <tr>
+        <th scope="row">{{ like.tipoLike }}</th>
+        <th scope="row">{{ like.img }}</th>
+      </tr>
+    </tbody>
+  </table>
+</body>

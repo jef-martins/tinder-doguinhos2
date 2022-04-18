@@ -1,0 +1,209 @@
+/* .card{
+  margin: auto;
+  align-items: center;
+  width: 400px;
+  border: none;
+}
+
+.card-title{
+  font-size: 2rem;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.img_dog{
+  width: 400px;
+  border-radius: 40px 40px 0 0 ;
+  border: 2px solid #2B2B2C;
+  border-bottom: none;
+
+}
+
+.card_dog{
+  background-color: black;
+  border-radius: 40px 40px 0 0;
+
+}
+
+.card-body{
+  border: 2px solid #2B2B2C;
+  border-top: none;
+  width: 400px;
+  padding: 24px;
+  background-color: #fffffe;
+  color: #2B2B2C;
+  text-align: center;
+  border-radius: 0 0 40px 40px;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 16px;
+}
+
+.btn{
+  font-size: 2rem;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.btn_like, .btn_dislike, .btn_superlike {
+  background-color: #f0f0f0;
+  color: #D94423;
+  border: none;
+  box-shadow: 0 2px 3px #8C8C8F;
+
+}
+
+.btn-primary {
+  background-color: none;
+}
+
+.historico{
+  padding: 24px;
+}
+
+.btn_history{
+  font-size: 1rem;
+  background-color: #c7c7c7;
+  color: #222227;
+  border: none;
+  width: 240px;
+  box-shadow: 0 2px 3px #8C8C8F;
+
+}
+
+.btn_history:active{
+  background-color: #6b6c88;
+  color: #DFE5F2;
+}
+
+.btn_superlike{
+  color: #e9ca42;
+}
+
+.btn_dislike{
+  color: #729191;
+} */
+
+
+
+
+ /* ******************************** */
+/* Novo CSS */
+body{
+  background-color: #f0f0f0;
+}
+
+h2{
+  text-align: center;
+  padding: 0;
+  font-size: 4rem;
+  color: #FF5A33;
+}
+
+.titulo{
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.row{
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+
+.area_img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+.imagem{
+  width: 400px;
+  max-height: 640px;
+  display: flex;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.area_btn{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 40px;
+
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.bi{
+  font-size: 2rem;
+}
+
+.btn_like, .btn_dislike, .btn_superlike {
+  background-color: #f0f0f0;
+  color: #FF5A33;
+  border: 3px solid #FF5A33;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+}
+
+.btn_superlike{
+  background-color: #f0f0f0;
+  color: #E6D305;
+  border: 3px solid #E6D305;
+}
+
+.btn_dislike{
+  background-color: #f0f0f0;
+  color: #146152;
+  border: 3px solid #146152;
+}
+
+.btn_superlike:hover{
+  background-color: #E6D305;
+  color: #f0f0f0;
+  border: 3px solid #E6D305;
+}
+
+.btn_dislike:hover{
+  background-color: #146152;
+  color: #f0f0f0;
+  border: 3px solid #146152;
+}
+
+.btn_like:hover{
+  background-color: #FF5A33;
+  color: #f0f0f0;
+  border: 3px solid #FF5A33;
+}
+
+.btn_historico{
+  background-color: #f0f0f0;
+  border-radius: 32px;
+  border: 3px solid #747E7E;
+  font-weight: 600;
+  color: #747E7E;
+}
+
+.btn_historico:hover{
+  background-color: #747E7E;
+  border-radius: 32px;
+  font-weight: 600;
+  color: #f0f0f0;
+}

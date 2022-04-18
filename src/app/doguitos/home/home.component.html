@@ -1,0 +1,89 @@
+<!-- <div class="card" style="width: 18rem">
+  <div
+    [@homeComponentState]="stateName"
+    class="card_dog"
+    *ngFor="let dogs of doguinhos"
+  >
+    <img class="img_dog" src="{{ dogs.message }}" alt="" />
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Doguitos</h5>
+    <div class="botoes">
+      <button class="btn  btn_dislike" (click)="dislike()">
+        <i class="bi bi-x-square-fill"> </i>
+      </button>
+
+      <button class="btn  btn_superlike" (click)="superlike()">
+        <i class="bi bi-star-fill"></i>
+      </button>
+
+      <button class="btn  btn_like" (click)="like()">
+        <i class="bi bi-heart-fill"> </i>
+      </button>
+    </div>
+    <div class="historico">
+    <button class="btn  btn_history" routerLink="historico">
+      Histórico
+    </button>
+  </div>
+  </div>
+</div> -->
+
+<!-- ***********************************
+Novo layout -->
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <h2>Doguinhos Love</h2>
+
+</nav> -->
+
+<!--
+<div class="geral row">
+
+
+
+
+
+</div>-->
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h2>Tinder de doguinhos S2</h2>
+
+      <div class="col">
+        <div class="area_img">
+          <div [@homeComponentState]="stateName" *ngFor="let dogs of doguinhos">
+            <img src="{{ dogs.message }}" alt="" class="imagem" />
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="area_btn">
+          <div class="botoes">
+            <button class="btn btn-primary btn_dislike" (click)="dislike()">
+              <i class="bi bi-x-lg"></i>
+            </button>
+
+            <button class="btn btn-primary btn_superlike" (click)="superlike()">
+              <i class="bi bi-star-fill"></i>
+            </button>
+
+            <button class="btn btn-primary btn_like" (click)="like()">
+              <i class="bi bi-suit-heart-fill"></i>
+            </button>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button
+              class="btn btn-outline-secondary btn-lg btn_historico"
+              routerLink="historico"
+            >
+              Histórico
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
